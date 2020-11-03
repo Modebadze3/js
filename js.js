@@ -26,3 +26,35 @@ for (let i = 0; i < names.length; i++) {
         console.log(names[i])
     }
 }
+// Task4
+
+let numbers = [3, 13, 23, 30, 31, 32, 33];
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2==0) {
+        console.log(numbers[i])
+    }
+};
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2!=0) {
+        console.log(numbers[i])
+    }
+}; 
+// Task5
+
+let user2 = ['name', 'age', 25, 50, 'surname', [100, 500]];{
+    console.log(user2[5][1])
+};
+// Task6
+
+var person = {
+    firstname: 'john',
+    lastname: 'doe',
+    age: 50,
+    eyecolour: 'blue'
+}; console.log(person.eyecolour)
+// Task7
+
+let m = ['karma', 'zed', 'luli', 'jhin', 'kidevinme']
+for (let i = 0; i < m.length; i++) {
+    console.log(m[i])
+}
