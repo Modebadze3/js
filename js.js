@@ -14,5 +14,15 @@ else if (user.age >= 18 && user.gender == 'male') {
 }
 // Task2
 
-let cars = ["audi", "bmw", "lexus", "volkswagen", "ferrary", "porsche"];
-console.log(cars[0]);
+let cars = ['audi', 'bmw', 'lexus', 'volkswagen', 'ferrary', 'porsche'];
+for (let i = 1; i < cars.length; i++) {
+    console.log(cars[i])
+};
+// Task3
+
+let names = ['rezo', 'beso', 'kenzo', 'giorgi']
+for (let i = 0; i < names.length; i++) {
+    if (names[i].length > 4) {
+        console.log(names[i])
+    }
+}
